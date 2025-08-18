@@ -1,0 +1,56 @@
+.main-container {
+    display: flex;
+    border: 2px solid lightgrey;
+    border-radius: 16px;
+    padding: 40px 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-wrap: wrap;
+    max-width: 1226px; 
+    margin: 0 auto;
+
+}
+.car-img {
+    border-radius: 30px;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.car-info {
+    margin: auto 0;
+    text-align: center;
+}
+.heading {
+    font-size: clamp(20px, 4vw, 30px);
+}
+.description {
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 400;
+
+}
+
+@media screen and (min-width: 600px) {
+    .car-info {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main-container {
+        padding: 40px 20px;
+        margin: 40px auto;
+        width: 100%;
+    }
+    .car-img {
+        height: 600px;
+        width: 700px;
+    }
+    .car-info {
+        padding-left: 40px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        max-width: 400px;
+
+    }
+}
