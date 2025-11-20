@@ -39,7 +39,7 @@
     .main-container {
         padding: 40px 20px;
         margin: 40px auto;
-        width: 100%;
+        /* width: 100%; */
     }
     .car-img {
         height: 600px;
