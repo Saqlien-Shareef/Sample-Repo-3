@@ -38,8 +38,8 @@
 }
 @media screen and (min-width: 1200px) {
     .main-container {
-        padding: 40px 20px;
-        margin: 40px;
+        padding: 40px;
+        margin: 40px auto;
         /* width: 100%; */
     }
     .car-img {
