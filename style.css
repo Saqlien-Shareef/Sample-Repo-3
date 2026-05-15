@@ -8,7 +8,7 @@
     font-style: normal;
     flex-wrap: wrap;
     max-width: 1226px; 
-    margin: 0 auto;
+    margin: 20px 10px;
 
 }
 .car-img {
@@ -39,7 +39,7 @@
 @media screen and (min-width: 1200px) {
     .main-container {
         padding: 40px 20px;
-        margin: 40px auto;
+        margin: 40px;
         /* width: 100%; */
     }
     .car-img {
