@@ -23,7 +23,7 @@
     width: 100%;
 }
 .heading {
-    font-size: clamp(20px, 1vw, 30px);
+    font-size: clamp(20px, 4vw, 36px);
 }
 .description {
     font-size: clamp(12px, 4vw, 16px);
